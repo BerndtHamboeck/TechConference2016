@@ -1,0 +1,56 @@
+﻿<Window x:Class="TitanicRClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TitanicRClient"
+        mc:Ignorable="d"
+        Title="Titanic" Height="650" Width="805" Loaded="Window_Loaded">
+    <TabControl>
+        <TabItem Header="Survival by Age 1">
+            <Grid>
+                <Image Name="imageSurvival_by_Age1" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by Age 2">
+            <Grid>
+                <Image Name="imageSurvival_by_Age2" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by Class">
+            <Grid>
+                <Image Name="imageSurvival_by_Class" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by Embarked">
+            <Grid>
+                <Image Name="imageSurvival_by_Embarked" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by Fare">
+            <Grid>
+                <Image Name="imageSurvival_by_Fare" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by Gender">
+            <Grid>
+                <Image Name="imageSurvival_by_Gender" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by Parch">
+            <Grid>
+                <Image Name="imageSurvival_by_Parch" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by SibSp">
+            <Grid>
+                <Image Name="imageSurvival_by_SibSp" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Survival by Ticket">
+            <Grid>
+                <Image Name="imageSurvival_by_Ticket" Stretch="Fill"></Image>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>
